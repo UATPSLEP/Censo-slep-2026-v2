@@ -18,7 +18,7 @@ function enviarRecordatorios() {
 
   const mapaCorreoAsesor = construirMapaCorreoAsesor_(hojaAsesores);
 
-  const FORM_URL = 'https://docs.google.com/spreadsheets/d/1S103nRYCREUWFHmPocHaeEL9ZKGqlhn0wv0eHsFHnoY/edit?usp=sharing';
+  const FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdeZXKRs8AMeZiETSb6Ukkf_Ov4xBMYQcSbKYHr3uVuFkcNeA/viewform?usp=header';
 
   const datos = hojaEE.getRange(2, 1, Math.max(hojaEE.getLastRow() - 1, 0), hojaEE.getLastColumn()).getValues();
 
